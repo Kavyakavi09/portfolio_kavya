@@ -57,7 +57,7 @@ function Home() {
             <LinkedInIcon />
           </a>
           <a
-            href='https://www.linkedin.com/in/kavyakaruppusamy/'
+            href='https://drive.google.com/file/d/1zQd8uDhUfmczY6tC9KItiiUx0jQxkfUO/view?usp=sharing'
             target='_blank'
             rel='noreferrer'>
             <button className='resume-btn'>Resume</button>
