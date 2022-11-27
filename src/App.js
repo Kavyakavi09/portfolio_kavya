@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Project from './pages/Project';
 import Experience from './pages/Experience';
@@ -24,7 +24,7 @@ function App() {
   }, [load]);
   return (
     <div className='App' id={load ? 'no-scroll' : 'scroll'}>
-      <BrowserRouter>
+      <HashRouter>
         <SnackbarProvider>
           <Preloader load={load} />
           <Navbar />
@@ -38,7 +38,7 @@ function App() {
           </Routes>
           <Footer />
         </SnackbarProvider>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }

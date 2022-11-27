@@ -24,7 +24,7 @@ function Footer() {
         {' '}
         &copy; {new Date().getFullYear()}{' '}
         <a
-          href='https://kavyakaruppusamy.netlify.app/'
+          href='https://kavyakavi.netlify.app/'
           style={{ textDecoration: 'none', color: 'inherit' }}
           target='_blank'
           rel='noreferrer'>
